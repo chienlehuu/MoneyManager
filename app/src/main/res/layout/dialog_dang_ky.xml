@@ -6,6 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageView
+        android:id="@+id/icon_hide"
         android:layout_gravity="center"
         android:src="@drawable/icon_ke_ngang"
         android:layout_width="wrap_content"
@@ -28,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/edt_username_dangky"
         android:hint="Nhập Tên Đăng Nhập"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -44,6 +46,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/edt_password_dangky"
         android:hint="*** ***"
         android:inputType="textPassword"
         android:layout_marginLeft="8dp"
@@ -61,6 +64,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
     <EditText
+        android:id="@+id/edt_nhaplai_password_dangky"
         android:hint="*** ***"
         android:inputType="textPassword"
         android:layout_marginLeft="8dp"
@@ -71,15 +75,7 @@
         android:layout_height="wrap_content"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:text="Đăng Ký"
-        android:layout_marginTop="50dp"
-        android:layout_gravity="center"
-        android:textColor="@color/white"
-        android:background="@drawable/background_button"
-        android:layout_width="256dp"
-        android:layout_height="wrap_content"/>
-
-    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Dangky_taikhoan"
         android:text="Đăng Ký"
         android:layout_marginTop="50dp"
         android:layout_gravity="center"
