@@ -79,6 +79,15 @@
         android:layout_width="256dp"
         android:layout_height="wrap_content"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="Đăng Ký"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/background_button"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"/>
+
 
 
 </LinearLayout>
