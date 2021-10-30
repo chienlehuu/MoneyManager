@@ -3,10 +3,11 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:background="#32B768"
+    android:padding="16dp"
     android:layout_height="match_parent">
 
     <ImageView
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="56dp"
         android:layout_gravity="center"
         android:src="@drawable/hello"
         android:layout_width="250dp"
@@ -27,7 +28,7 @@
         android:textColor="@color/white"
         android:layout_gravity="center"
         android:text="@string/hello"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"/>
 
     <androidx.appcompat.widget.AppCompatButton
@@ -35,7 +36,7 @@
         android:id="@+id/btn_Start"
         android:text="Bắt Đầu"
         android:layout_marginTop="32dp"
-        android:layout_gravity="center"
+        android:layout_gravity="center_horizontal"
         android:textColor="#32B768"
         android:background="@drawable/background_button_hind"
         android:layout_height="wrap_content"/>

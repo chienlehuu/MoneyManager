@@ -10,7 +10,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Đăng Ký"
+            android:text="Đăng Nhập"
             android:textColor="#32B768"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -24,7 +24,7 @@
             android:textSize="16dp" />
 
         <EditText
-            android:id="@+id/edt_user_dangky_dialog"
+            android:id="@+id/edt_user_dangnhap_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -42,26 +42,7 @@
             android:textSize="16dp" />
 
         <EditText
-            android:id="@+id/edt_password_dangky_dialog"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:background="@drawable/backgroud_edit_text"
-            android:hint="*** ***"
-            android:inputType="textPassword"
-            android:padding="8dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="16dp"
-            android:text="Nhập Lại Mật Khẩu: "
-            android:textColor="@color/black"
-            android:textSize="16dp" />
-
-        <EditText
-            android:id="@+id/edt_reppassword_dangky_dialog"
+            android:id="@+id/edt_password_dangnhap_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
@@ -72,13 +53,13 @@
             android:padding="8dp" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/btn_Dangky_Dialog"
+            android:id="@+id/btn_Dangnhap_Dialog"
             android:layout_width="256dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="24dp"
             android:background="@drawable/background_button"
-            android:text="Đăng Ký"
+            android:text="Đăng Nhập"
             android:textColor="@color/white" />
 
     </LinearLayout>
