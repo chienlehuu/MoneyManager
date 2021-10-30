@@ -15,8 +15,11 @@
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/dialog_dang_ky.xml" value="0.2" />
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/fragment_plash.xml" value="0.192481884057971" />
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/plash_fragment.xml" value="0.192481884057971" />
-        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/drawable/background_dialog.xml" value="0.17094017094017094" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_man_hinh_chao.xml" value="0.19202898550724637" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/dialog_dang_ky.xml" value="0.2" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/dialog_dang_nhap.xml" value="0.17051282051282052" />
       </map>
     </option>
   </component>
