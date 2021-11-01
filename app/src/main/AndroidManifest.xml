@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyManager">
         <activity
+            android:name=".ui.SucessNewPassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.NewPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.SuccessForgetPassActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.ForgetPasswordActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity

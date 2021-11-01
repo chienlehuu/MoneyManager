@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private DialogLogin dialogLogin;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,11 +32,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void findIds() {
         dialogRegister = new DialogRegister();
-        dialogLogin= new DialogLogin();
+        dialogLogin= new DialogLogin(getApplicationContext());
         btn_dangki = findViewById(R.id.btn_dang_ky);
         btn_dangnhap = findViewById(R.id.btn_dang_nhap);
         btn_dangnhap.setOnClickListener(this::onClick);
         btn_dangki.setOnClickListener(this);
+
 
     }
 

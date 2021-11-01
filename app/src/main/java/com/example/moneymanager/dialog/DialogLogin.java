@@ -2,6 +2,7 @@ package com.example.moneymanager.dialog;
 
 import android.app.Dialog;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.Gravity;
@@ -9,12 +10,22 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.example.moneymanager.R;
+import com.example.moneymanager.ui.ForgetPasswordActivity;
 
 public class DialogLogin {
+    public Context context;
+
+    public DialogLogin(Context context) {
+        this.context = context;
+    }
+
+
     public  void openDialogLogin(Context context){
         final Dialog dialog = new Dialog(context);
+
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_dang_nhap);
 
@@ -36,12 +47,27 @@ public class DialogLogin {
     }
 
     private void findIdsDialog(Dialog dialog) {
+        TextView tx_quenmk= dialog.findViewById(R.id.tv_quenmk);
+
 
         Button btn_dangnhap_dialog=dialog.findViewById(R.id.btn_Dangnhap_Dialog);
         btn_dangnhap_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 dialog.dismiss();
+
+            }
+        });
+
+        tx_quenmk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(context,ForgetPasswordActivity.class);
+                context.startActivity(intent);
+
+
+
+
 
             }
         });
