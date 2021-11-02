@@ -63,10 +63,8 @@ public class DialogLogin {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(context,ForgetPasswordActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
-
-
-
 
 
             }
