@@ -1,4 +1,4 @@
-package com.example.moneymanager.menu;
+package com.example.moneymanager.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.example.moneymanager.R;
 
-public class Home1Activity extends AppCompatActivity {
+public class HomeActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home1);
+        setContentView(R.layout.activity_home);
     }
 }

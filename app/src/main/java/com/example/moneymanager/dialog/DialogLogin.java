@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.example.moneymanager.R;
 import com.example.moneymanager.ui.ForgetPasswordActivity;
+import com.example.moneymanager.ui.HomeActivity;
 
 public class DialogLogin {
     public Context context;
@@ -49,12 +50,12 @@ public class DialogLogin {
     private void findIdsDialog(Dialog dialog) {
         TextView tx_quenmk= dialog.findViewById(R.id.tv_quenmk);
 
-
         Button btn_dangnhap_dialog=dialog.findViewById(R.id.btn_Dangnhap_Dialog);
         btn_dangnhap_dialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                dialog.dismiss();
+               Intent intent= new Intent(context, HomeActivity.class);
+               context.startActivity(intent);
 
             }
         });
@@ -63,6 +64,7 @@ public class DialogLogin {
             @Override
             public void onClick(View view) {
                 Intent intent= new Intent(context,ForgetPasswordActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 context.startActivity(intent);
 
             }

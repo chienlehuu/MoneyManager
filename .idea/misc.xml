@@ -15,8 +15,11 @@
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/dialog_dang_ky.xml" value="0.2" />
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/fragment_plash.xml" value="0.192481884057971" />
         <entry key="..\:/Android/MoneyManager/app/src/main/res/layout/plash_fragment.xml" value="0.192481884057971" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/drawable/backgroud_item_nav.xml" value="0.25" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/drawable/backgroud_logout.xml" value="0.20833333333333334" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/drawable/background_dialog.xml" value="0.17094017094017094" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_forget_password.xml" value="0.2" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_home.xml" value="0.22" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_home1.xml" value="0.17617753623188406" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_man_hinh_chao.xml" value="0.19202898550724637" />
@@ -25,6 +28,7 @@
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/activity_sucess_new_pass.xml" value="0.17708333333333334" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/dialog_dang_ky.xml" value="0.2" />
         <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/layout/dialog_dang_nhap.xml" value="0.25" />
+        <entry key="..\:/Users/Quan Nguyen/Desktop/MoneyManager/app/src/main/res/menu/menu_navigation.xml" value="0.19010416666666666" />
       </map>
     </option>
   </component>

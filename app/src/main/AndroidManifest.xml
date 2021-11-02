@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MoneyManager">
         <activity
+            android:name=".ui.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".menu.Home1Activity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SucessNewPassActivity"
             android:exported="true" />
         <activity
