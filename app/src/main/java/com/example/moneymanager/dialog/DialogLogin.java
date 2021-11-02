@@ -57,6 +57,10 @@ public class DialogLogin {
                Intent intent= new Intent(context, HomeActivity.class);
                context.startActivity(intent);
 
+
+
+
+
             }
         });
 
