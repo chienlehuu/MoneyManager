@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     tools:openDrawer="start"
+    android:id="@+id/myDrawer"
 
     android:background="@color/color_background"
     android:layout_height="match_parent"
@@ -64,7 +65,7 @@
                     android:textColor="@color/black"
                     android:paddingLeft="16dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:layout_weight="1"
                     android:layout_gravity="center"
@@ -99,7 +100,7 @@
                     android:textColor="@color/black"
                     android:paddingLeft="16dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:layout_weight="1"
                     android:layout_gravity="center"
@@ -134,7 +135,7 @@
                     android:textColor="@color/black"
                     android:paddingLeft="16dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:layout_weight="1"
                     android:layout_gravity="center"
@@ -167,7 +168,7 @@
                     android:textColor="@color/black"
                     android:paddingLeft="16dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"/>
+                    android:layout_height="wrap_content"/>
                 <ImageView
                     android:layout_weight="1"
                     android:layout_gravity="center"
@@ -181,16 +182,17 @@
                 android:layout_height="match_parent">
 
                 <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnLogout"
                     android:layout_width="86dp"
-                    android:text="Logout"
-                    android:textSize="16sp"
+                    android:layout_height="36dp"
+                    android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="16dp"
-                    android:layout_alignParentBottom="true"
-                    android:textColor="@color/white"
                     android:background="@drawable/backgroud_logout"
+                    android:text="Logout"
                     android:textAllCaps="false"
-                    android:layout_height="36dp"/>
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
 
 
 

@@ -38,7 +38,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btn_dangnhap.setOnClickListener(this::onClick);
         btn_dangki.setOnClickListener(this);
 
-
     }
 
     @Override
