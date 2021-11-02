@@ -65,10 +65,6 @@ public class DialogLogin {
                 Intent intent= new Intent(context,ForgetPasswordActivity.class);
                 context.startActivity(intent);
 
-
-
-
-
             }
         });
 
